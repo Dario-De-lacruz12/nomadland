@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiple" content="IE-edge">
+	<meta name="viewport" content="width=device width, initial-scale+1.0">
+	<link rel="stylesheet" type="text/css" href="cuadros color.css">
+	<title>Ejemplo de cuadritos</title>
+</head>
+<body>
+	<header>SOUL KNIGHT</header>
+	<nav>Nav</nav>
+	<aside>Aside</aside>
+	<div>
+	 <video autoplay muted preload loop>
+     <source src="soulk.mp4" type="video/mp4">
+     </video>
+     <h1>DARIO DE LA CRUZ SANCHEZ</h1>
+        </div>
+	<section>seccion
+	<article>Arti1</article>
+	<article>Arti2</article>
+	<article>Arti3</article>
+	</section>
+	<footer>Goo</footer>
+</body>
+</html>
