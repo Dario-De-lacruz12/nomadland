@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiple" content="IE-edge">
+	<meta name="viewport" content="width=device width, initial-scale+1.0">
+	<link rel="stylesheet" type="text/css" href="cuadros color.css">
+	<title>Ejemplo de cuadritos</title>
+</head>
+<body>
+	
+	<header>SOUL KNIGHT</header>
+	<nav></nav>
+	<aside>
+		<table id="table"
+		<tr>
+			<th>Nombre real</th>
+			<th>Nombre de superheroe</th>
+			<th>Edad</th>
+			<th>Superpoderes</th>
+		</tr>
+		<script>
+			$(document).ready(function(){
+			  $.getJSON("heroes.json", function(data){
+				var heroe='';
+				$.each(data, function(key, value){
+					heroe+='<td>' + value.nombre + '</td>';
+					heroe+='<td>' + value.superheroe + '</td>';
+					heroe+='<td>' + value.edad + '</td>';
+					heroe+='<td>' + value.superpoderes + '</td>';
+
+			});
+			$('#table').append(heroe);
+		});
+			});
+		</script>
+	</table>
+
+		</script>
+	</table>
+	</aside>
+	<div>
+<video autoplay muted preload loop>
+<source src="Soulk.mp4" type="video/mp4">	
+</video>		 
+        </div>
+	<section>
+	<article></article>
+	<article></article>
+	<article></article>
+	<article></article>
+
+	</section>
+	<footer></footer>
+</body>
+</html>
