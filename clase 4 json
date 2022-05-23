@@ -1,0 +1,11 @@
+[
+{
+	"nombre":"Matt Murdock",
+	"superheroe":"Daredevil",
+	"edad":"35",
+	"superpoderes":["Ecolocalización radar cerebral que le permite ver a pesar de estar ciego",
+    "Acróbata experto y maestro en artes marciales",
+    "Tirador de precisión perfecta",
+    "Carencia del sentido del miedo"],
+}
+]
